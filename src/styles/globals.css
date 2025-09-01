@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional: design tokens via CSS vars */
+:root {
+    --bg: #ffffff;
+    --fg: #0f172a;
+}
+.dark {
+    --bg: #0b1020;
+    --fg: #e5e7eb;
+}
