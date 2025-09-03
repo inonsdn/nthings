@@ -23,8 +23,14 @@ export default function ThemeButton() {
     }
 
     return (
-        <button onClick={onClick}>
-            { currentTheme }
-        </button>
+        <div className='bg-bg'>
+            <button onClick={onClick} className='bg-bg text-text-primary'>
+                { currentTheme }
+            </button>
+        <div className="text-red-500">tailwind ok?</div>
+        <div className="bg-bg-modal text-text-primary">var ok?</div>
+        <div className="bg-card text-white px-2">bg-card (from config)</div>
+        <div className="bg-card-primary text-white px-2">bg-card-primary</div>
+        </div>
     )
 }

@@ -4,10 +4,48 @@
 
 /* optional: design tokens via CSS vars */
 :root {
-    --bg: #ffffff;
+    /* --bg: #ffffff;
     --fg: #0f172a;
+    --card: #ff390f;
+    --card-primary: #af390f;
+    --primary: #2fa9af;
+    --test: #6ff9af; */
+
+    --raisin: #1E1E24; /* raisin */
+    --penn: #92140C; /* penn */
+    --floral: #FFF8F0; /* floral */
+    --sunset: #FFCF99; /* sunset */
+    --space: #111D4A; /* space */
+
+    --bg: #1D201F;   /* Eerie black */
+    --bg-modal: #111D4A;   /* space */
+
+    --text-primary: #D1DEDE;   /* Platinum */
+
+    /* palette */
+    --light-coral: #DF928E;      /* Light coral */
+    --old-rose: #C58882;    /* Old rose */
+    --platinum: #D1DEDE;   /* Platinum */
+    --eerie-black: #1D201F;   /* Eerie black */
+    --wheat: #EAD2AC;       /* Wheat */
+
 }
 .dark {
     --bg: #0b1020;
     --fg: #e5e7eb;
+    --card: #ff390f;
+    --card-primary: #af390f;
+}
+
+/* 
+ref: https://tailwindcss.com/docs/theme?utm_source=chatgpt.com#theme-variable-namespaces 
+*/
+@theme {
+    --color-bg: var(--bg);
+    --color-bg-modal: var(--bg-modal);
+    --color-text-primary: var(--text-primary)
+    /* --color-primary: var(--primary);
+    --color-test: var(--test);
+    --color-card: var(--card);
+    --color-card-primary: var(--card-primary); */
 }
