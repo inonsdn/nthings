@@ -41,6 +41,13 @@
 ref: https://tailwindcss.com/docs/theme?utm_source=chatgpt.com#theme-variable-namespaces 
 */
 @theme {
+    /* Breakpoints (enable sm:, md:, lg:, xl:, 2xl:) */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+    
     /* Spacing scale (used for padding, margin, width, height, gap, etc.) */
     --spacing-0: 0rem;
     --spacing-px: 1px;
@@ -80,7 +87,8 @@ ref: https://tailwindcss.com/docs/theme?utm_source=chatgpt.com#theme-variable-na
 
     --color-bg: var(--bg);
     --color-bg-modal: var(--bg-modal);
-    --color-text-primary: var(--text-primary);
+    --color-text-primary: var(--eerie-black);
+    --color-text-bright: var(--floral);
 
     --color-button: var(--wheat);
     --color-button-hover: var(--floral);

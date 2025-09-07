@@ -1,3 +1,4 @@
+import { DbProvider } from '@/contexts/DbContext'
 import '@/styles/globals.css'
 
 export default function RootLayout({
@@ -6,7 +7,9 @@ export default function RootLayout({
     return (
         <html lang='en'>
             <body >
-                {children}
+                <DbProvider>
+                    {children}
+                </DbProvider>
             </body>
         </html>
     )
