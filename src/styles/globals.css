@@ -85,8 +85,45 @@ ref: https://tailwindcss.com/docs/theme?utm_source=chatgpt.com#theme-variable-na
     --spacing-80: 20rem;     /* 320px */
     --spacing-96: 24rem;     /* 384px */
 
+    --radius-0: 0rem;
+    --radius-px: 1px;
+    --radius-0.5: 0.125rem; /* 2px */
+    --radius-1: 0.25rem;    /* 4px */
+    --radius-1.5: 0.375rem; /* 6px */
+    --radius-2: 0.5rem;     /* 8px */
+    --radius-2.5: 0.625rem; /* 10px */
+    --radius-3: 0.75rem;    /* 12px */
+    --radius-3.5: 0.875rem; /* 14px */
+    --radius-4: 1rem;       /* 16px */
+    --radius-5: 1.25rem;    /* 20px */
+    --radius-6: 1.5rem;     /* 24px */
+    --radius-7: 1.75rem;    /* 28px */
+    --radius-8: 2rem;       /* 32px */
+    --radius-9: 2.25rem;    /* 36px */
+    --radius-10: 2.5rem;    /* 40px */
+    --radius-11: 2.75rem;   /* 44px */
+    --radius-12: 3rem;      /* 48px */
+    --radius-14: 3.5rem;    /* 56px */
+    --radius-16: 4rem;      /* 64px */
+    --radius-20: 5rem;      /* 80px */
+    --radius-24: 6rem;      /* 96px */
+    --radius-28: 7rem;      /* 112px */
+    --radius-32: 8rem;      /* 128px */
+    --radius-36: 9rem;      /* 144px */
+    --radius-40: 10rem;     /* 160px */
+    --radius-44: 11rem;     /* 176px */
+    --radius-48: 12rem;     /* 192px */
+    --radius-52: 13rem;     /* 208px */
+    --radius-56: 14rem;     /* 224px */
+    --radius-60: 15rem;     /* 240px */
+    --radius-64: 16rem;     /* 256px */
+    --radius-72: 18rem;     /* 288px */
+    --radius-80: 20rem;     /* 320px */
+    --radius-96: 24rem;     /* 384px */
+
     --color-bg: var(--bg);
     --color-bg-modal: var(--bg-modal);
+    --color-bg-bright: var(--floral);
     --color-text-primary: var(--eerie-black);
     --color-text-bright: var(--floral);
 
