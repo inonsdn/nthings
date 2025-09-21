@@ -2,6 +2,8 @@
 interface CardProps {
     children: React.ReactNode;
     className: string;
+
+    onClick_cb: (() => void) | null
 }
 
 interface ClassNameObj {
@@ -33,20 +35,17 @@ function extractClassName (classNameStr: string) {
 
 function defaultClassName () {
     return {
-        
+
     }
 }
 
-export default function Card({children, className = ''}: CardProps) {
+export default function Card({children, className = '', onClick_cb = null}: CardProps) {
     const classNames = extractClassName(className)
-
 
     const mainClassName = ' ' + className
     return (
-        // <div className='w-full mx-auto max-w-screen-2xl'>
-            <div className={mainClassName}>
-                <main className='min-w-0'>{children}</main>
-            </div>
-        // </div>
+        <div className={mainClassName} onClick={onClick_cb}>
+            <main className='min-w-0'>{children}</main>
+        </div>
     )
 }
